@@ -13,7 +13,7 @@ var bundler = browserify({
   // Entry points to our app. In this case, it is the
   // app.js file (which loads our top-level component
   // and renders it to the index.html onto a div
-  entries:      [ "./app/js/app.js" ],
+  entries:      [ "./app/js/client/client.js" ],
 
   // Specify the 'translator' too that will convert JSX 
   // syntax to javascript. Babelify runs Babel, which 
